@@ -42,28 +42,32 @@ public final class Constants {
         public static final int kFrontRightTurningMotorPort = 2;
         public static final int kBackRightTurningMotorPort = 5;
 
-        //Internal Encoder for NEO Turning Motor
+        //Internal Encoder for NEO Turning Motor Readout Direction
         public static final boolean kFrontLeftTurningEncoderReversed = true;
         public static final boolean kBackLeftTurningEncoderReversed = true;
         public static final boolean kFrontRightTurningEncoderReversed = true;
         public static final boolean kBackRightTurningEncoderReversed = true;
 
+        //Internal Encoder for NEO Drive Motor Readout Direction
         public static final boolean kFrontLeftDriveEncoderReversed = true;
         public static final boolean kBackLeftDriveEncoderReversed = true;
         public static final boolean kFrontRightDriveEncoderReversed = false;
         public static final boolean kBackRightDriveEncoderReversed = false;
 
-        //Encoder ID
+        //Absolute Encoder ID
         public static final int kFrontLeftDriveAbsoluteEncoderPort = 2;
         public static final int kBackLeftDriveAbsoluteEncoderPort = 3;
         public static final int kFrontRightDriveAbsoluteEncoderPort = 1;
         public static final int kBackRightDriveAbsoluteEncoderPort = 0;
 
+
+        //Absolute Encoder ID Readout Direction
         public static final boolean kFrontLeftDriveAbsoluteEncoderReversed = false;
         public static final boolean kBackLeftDriveAbsoluteEncoderReversed = false;
         public static final boolean kFrontRightDriveAbsoluteEncoderReversed = false;
         public static final boolean kBackRightDriveAbsoluteEncoderReversed = false;
 
+        //Absolute Encoder Offset to "0"
         public static final double kFrontLeftDriveAbsoluteEncoderOffsetRad = -3.8;
         public static final double kBackLeftDriveAbsoluteEncoderOffsetRad = -0.47;
         public static final double kFrontRightDriveAbsoluteEncoderOffsetRad = -2.4;
