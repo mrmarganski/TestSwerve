@@ -42,6 +42,7 @@ public final class Constants {
         public static final int kFrontRightTurningMotorPort = 2;
         public static final int kBackRightTurningMotorPort = 5;
 
+        //Internal Encoder for NEO Turning Motor
         public static final boolean kFrontLeftTurningEncoderReversed = true;
         public static final boolean kBackLeftTurningEncoderReversed = true;
         public static final boolean kFrontRightTurningEncoderReversed = true;
