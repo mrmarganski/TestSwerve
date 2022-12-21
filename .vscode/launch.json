@@ -5,6 +5,7 @@
   "version": "0.2.0",
   "configurations": [
 //test from DS lappie take3
+//hi im a programming laptop
     {
       "type": "wpilib",
       "name": "WPILib Desktop Debug",
